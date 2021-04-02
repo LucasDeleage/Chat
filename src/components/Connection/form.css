@@ -1,0 +1,20 @@
+.Form{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right bottom, rgba(255,255,255, 0.8), rgba(255,255,255, 0.5));
+    border-radius: 2rem;
+}
+
+
+.Form form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.Form form input{
+    margin-top: 20px;
+}
