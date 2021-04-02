@@ -26,8 +26,9 @@ const Form = (props) => {
 
             <form>
                 <input type="text" placeholder="email" onChange={handleEmail}></input>
-                <input type="text" placeholder="password" onChange={handleMdp}></input>
+                <input type="password" placeholder="password" onChange={handleMdp}></input>
             </form>
+            <button onClick={props.loginUser}>log in</button>
             <button onClick={props.createAccount}>create account</button>
             <Button onClick={props.signInWithGoogle}>Sign in with Google</Button> 
         </div>

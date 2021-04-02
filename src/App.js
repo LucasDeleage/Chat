@@ -132,7 +132,7 @@ function App() {
           <Room user={user} db={db} signOut = {signOut}/>
         </>
       ):(
-          <Form signInWithGoogle={signInWithGoogle} loginUser = {loginUser} setEmail = {setEmail} setMdp = {setMdp} createAccount={createAccount}/>
+          <Form signInWithGoogle={signInWithGoogle} loginUser = {loginUser} setEmail = {setEmail} setMdp = {setMdp} createAccount={createAccount} loginUser = {loginUser}/>
       )}
 
     </div>
