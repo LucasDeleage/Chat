@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### dependances
+## Dependances
 
 firebase : npm i firebase.\
 font-awesome :  npm i --save @fortawesome/fontawesome-svg-core.\
