@@ -2,8 +2,6 @@ import React, {useState, useEffect} from 'react';
 import firebase from 'firebase/app';
 import './Channel.css'
 import Message from '../Message/Message'
-import {useContext} from 'react';
-import RoomContext from '../Room/RoomContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 

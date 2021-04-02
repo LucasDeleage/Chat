@@ -3,7 +3,7 @@ import './App.css';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/firestore';
-import {useState, useEffect, createContext} from 'react';
+import {useState, useEffect} from 'react';
 import Form from './components/Connection/form'
 import Room from './components/Room/Room'
 
